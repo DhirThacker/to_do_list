@@ -1,0 +1,41 @@
+$margin: 5px;
+$padding: 10px;
+$width: 100px;
+
+.container1 {
+  padding: $padding;
+  margin: $margin;
+}
+
+.container1__black {
+  background-color: black;
+  color: white;
+}
+
+.container__but1 {
+  width: $width;
+  margin-top: 10px;
+}
+
+input {
+  border:2px groove black;
+}
+
+.container2 {
+  padding: $padding;
+  margin: $margin;
+}
+
+#ul {
+  list-style-type: none;
+}
+
+ul {
+  li {
+    margin: $margin;
+  }
+}
+
+#ul.hover {
+  text-decoration: none;
+}
